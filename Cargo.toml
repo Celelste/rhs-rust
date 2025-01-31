@@ -1,3 +1,9 @@
+bin= [
+    {name = "main", path = "src/main.rs"},
+    {name = "1-1", path = "problems/section_1/1-1.rs"},
+    {name = "1-2", path = "problems/section_1/1-2.rs"}
+]
+
 [package]
 name = "rhs-rust"
 version = "0.1.0"
