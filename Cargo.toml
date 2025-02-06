@@ -1,7 +1,10 @@
 bin= [
     {name = "main", path = "src/main.rs"},
-    {name = "1-1", path = "problems/section_1/1-1.rs"},
-    {name = "1-2", path = "problems/section_1/1-2.rs"}
+    {name = "vars1", path = "problems/1-variables/vars-1.rs"},
+    {name = "vars2", path = "problems/1-variables/vars-2.rs"},
+    {name = "vars3", path = "problems/1-variables/vars-3.rs"},
+    {name = "vars4", path = "problems/1-variables/vars-4.rs"},
+    {name = "vars5", path = "problems/1-variables/vars-5.rs"},
 ]
 
 [package]
