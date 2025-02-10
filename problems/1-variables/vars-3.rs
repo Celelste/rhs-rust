@@ -1,6 +1,8 @@
-// make the program compile:
-// 1 - change x to a float
-// 2 - convert y into an int
+/*
+make the program compile and succeed:
+1 - change x to a float
+2 - convert y into an int
+*/
 
 fn main() {
     let mut x = 5;
@@ -9,4 +11,5 @@ fn main() {
     x += y;
 
     println!("{}", x);
+    println!("Success!");
 }

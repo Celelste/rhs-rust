@@ -1,6 +1,8 @@
-// make the program output x in one of two ways:
-// 1 - reassign x
-// 2 - make x mutable, and change the value
+/*
+make the program succeed and output x in one of two ways:
+1 - reassign x
+2 - make x mutable, and change the value
+*/
 
 fn main() {
     let x = 10; // assign x
@@ -14,4 +16,5 @@ fn main() {
     // change nothing below
     assert_eq!(x, y); // will fail the program if x != y
     println!("{x}")
+    println!("Success!");
 }

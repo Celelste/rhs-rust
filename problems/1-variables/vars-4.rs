@@ -1,11 +1,14 @@
-// fill in the unknowns, and have the output make sense
+// fill in the unknowns, and make the program succeed
 
 fn main() {
-    let bool: bool = true;
+    let x: bool = ???;
 
-    let letter: char = 'z';
+    let y: char = ???;
 
-    let statement = "is the final letter of the alphabet";
+    let statement: &str = "is the final letter of the alphabet";
 
-    println!("{bool}: {letter} {statement}");
+    // change nothing below
+    println!("{x}: {y} {statement}");
+    assert_eq!("true: z is the final letter of the alphabet", format!("{x}: {y} {statement}"));
+    println!("Success!");
 }
