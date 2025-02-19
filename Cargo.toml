@@ -1,13 +1,15 @@
 bin= [
     {name = "main", path = "src/main.rs"},
-    {name = "vars1", path = "problems/1-variables/vars-1.rs"},
-    {name = "vars2", path = "problems/1-variables/vars-2.rs"},
-    {name = "vars3", path = "problems/1-variables/vars-3.rs"},
-    {name = "vars4", path = "problems/1-variables/vars-4.rs"},
-    {name = "vars5", path = "problems/1-variables/vars-5.rs"},
-    {name = "vars6", path = "problems/1-variables/vars-6.rs"},
-    {name = "control1", path = "problems/2-control_flow/control-1.rs"},
-    {name = "control2", path = "problems/2-control_flow/control-2.rs"},
+    {name = "vars1", path = "problems/1 - variables/vars-1.rs" },
+    {name = "vars2", path = "problems/1 - variables/vars-2.rs" },
+    {name = "vars3", path = "problems/1 - variables/vars-3.rs" },
+    {name = "vars4", path = "problems/1 - variables/vars-4.rs" },
+    {name = "vars5", path = "problems/1 - variables/vars-5.rs" },
+    {name = "vars6", path = "problems/1 - variables/vars-6.rs" },
+    {name = "control1", path = "problems/2 - control flow/control-1.rs" },
+    {name = "control2", path = "problems/2 - control flow/control-2.rs" },
+    {name = "control3", path = "problems/2 - control flow/control-3.rs" },
+    {name = "control4", path = "problems/3 - functions/functions-5.rs" },
 ]
 
 [package]
