@@ -1,15 +1,15 @@
 // make the program succeed twice by ONLY filling in the unknowns
 
 fn main() {
-    let x: i32 = ?
+    let x: i32 = 5;
 
-    ??? x == 5 {
+    if ??? {
         println!("Success!");
     }
 
-    ??? x != 5 {
+    if ??? {
         println!("Fail");
-    } ??? {
+    } else {
         println!("Success");
     }
 }

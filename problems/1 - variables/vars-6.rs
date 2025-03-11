@@ -1,8 +1,8 @@
 // Fill in ONLY ?'s to make program compile and succeed
 
 fn main() {
-    let mut num_array: ? = [?]; // should be 1, 2, 3, 4, 5
-    let fives: ? = [?; ?]; // should be 5, 5, 5, 5, 5
+    let mut num_array: [i32; 5] = [?]; // should be 1, 2, 2, 4, 5
+    let fives: [i32; 5] = [?; ?]; // should be 5, 5, 5, 5, 5
 
 
     assert_eq!(num_array.iter().sum(), 14); // do not change line

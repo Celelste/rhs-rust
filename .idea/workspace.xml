@@ -8,19 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="250cf8f8-4e3f-4b37-8f0d-cce2cab33f31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/2 - control flow/control-3.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/3 - functions/functions-5.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problems/4 - borrowing &amp; ownership/stack_vs_heap.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/2 - control flow/control-4.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/1-variables/vars-1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/1 - variables/vars-1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/1-variables/vars-2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/1 - variables/vars-2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/1-variables/vars-3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/1 - variables/vars-3.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/1-variables/vars-4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/1 - variables/vars-4.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/1-variables/vars-5.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/1 - variables/vars-5.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/1-variables/vars-6.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/1 - variables/vars-6.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/2-control_flow/control-1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/2 - control flow/control-1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/2-control_flow/control-2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/2 - control flow/control-2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/1 - variables/vars-1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/1 - variables/vars-1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/1 - variables/vars-2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/1 - variables/vars-2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/1 - variables/vars-3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/1 - variables/vars-3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/1 - variables/vars-6.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/1 - variables/vars-6.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/2 - control flow/control-1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/2 - control flow/control-1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/2 - control flow/control-2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/2 - control flow/control-2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/2 - control flow/control-3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/2 - control flow/control-3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/4 - borrowing &amp; ownership/stack_vs_heap.md" beforeDir="false" afterPath="$PROJECT_DIR$/problems/4 - borrowing &amp; ownership/stack_vs_heap.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +66,7 @@
   "keyToString": {
     "Cargo.Run control2.executor": "Run",
     "Cargo.Run control3.executor": "Run",
+    "Cargo.Run control4.executor": "Run",
     "Cargo.Run rhs-rust.executor": "Run",
     "Cargo.Run vars2.executor": "Run",
     "Cargo.Run vars3.executor": "Run",
@@ -88,6 +87,7 @@
     "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
     "org.rust.disableDetachedFileInspection/Users/sarmendarizsull8582/Documents/GitHub/rhs-rust/Problems/1 - vars/vars-1.rs": "true",
     "org.rust.disableDetachedFileInspection/Users/sarmendarizsull8582/Documents/GitHub/rhs-rust/problems/1-variables/vars-2.rs": "true",
+    "org.rust.disableDetachedFileInspection/Users/sarmendarizsull8582/Documents/GitHub/rhs-rust/problems/2 - control flow/control-4.rs": "true",
     "org.rust.disableDetachedFileInspection/Users/sarmendarizsull8582/Documents/GitHub/rhs-rust/problems/2-control_flow/control-2.rs": "true",
     "org.rust.first.attach.projects": "true",
     "vue.rearranger.settings.migration": "true"
@@ -102,7 +102,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.Run control3">
+  <component name="RunManager" selected="Cargo.Run control4">
     <configuration name="Run control2" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package rhs-rust --bin control2" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -122,6 +122,23 @@
     </configuration>
     <configuration name="Run control3" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package rhs-rust --bin control3" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run control4" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package rhs-rust --bin control4" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -157,23 +174,6 @@
     </configuration>
     <configuration name="Run vars3" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package rhs-rust --bin vars3" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run vars5" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package rhs-rust --bin vars5" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -226,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run control4" />
         <item itemvalue="Cargo.Run control3" />
         <item itemvalue="Cargo.Run control2" />
         <item itemvalue="Cargo.Run vars3" />
         <item itemvalue="Cargo.Run vars6" />
-        <item itemvalue="Cargo.Run vars5" />
       </list>
     </recent_temporary>
   </component>
@@ -249,6 +249,12 @@
       <workItem from="1738866063788" duration="3497000" />
       <workItem from="1739211038752" duration="4944000" />
       <workItem from="1739384637856" duration="3237000" />
+      <workItem from="1739987580121" duration="599000" />
+      <workItem from="1740507036423" duration="583000" />
+      <workItem from="1740678575684" duration="597000" />
+      <workItem from="1740691717080" duration="55000" />
+      <workItem from="1741111475424" duration="598000" />
+      <workItem from="1741712950650" duration="2853000" />
     </task>
     <servers />
   </component>

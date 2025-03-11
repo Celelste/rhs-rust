@@ -5,10 +5,10 @@ make the program compile and succeed:
 */
 
 fn main() {
-    let mut x = 5;
-    let y = 5.0; // do not change
+    let mut x: i32 = 5; // x = 5 as an integer
+    let y: f64 = 5.0; // do not change, y = x as a float
 
-    x += y;
+    x += y as ???;
 
     println!("{}", x);
     println!("Success!");

@@ -3,15 +3,17 @@
 fn main() {
     let mut x: i32 = 0;
 
-     ??? ??? {
-         let y: i32 = x;
+    ??? x != 10 { // while x != 10
 
-         ???;
+        let y: i32 = x;
 
-         assert_ne!(y, x);
-         println!("{}", x);
-     }
+        ???; // increment x by 1
 
-    assert_eq!(x, 10);
+        // change nothing below
+        assert_ne!(y, x); // make sure that x and y are different
+        println!("{}", x);
+    }
+
+    assert_eq!(x, 10); // make sure that x == 10
     println!("Success!");
 }

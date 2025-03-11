@@ -26,7 +26,12 @@ fn main() { // change nothing in fn main {}
 
 fn test_val(x: i32) -> bool { // ignore for now, we will cover how functions work later
 
+    ??? x == 24 || x == 42 { // if x == 24 or x == 42 return false
+        false
+    } else ??? x % 2 == 0 { // else if x % 2 == 0 return true
+        true
+    } ??? { // else return false
+        false
+    }
 
-
-    return return_bool; // do not change line
 }

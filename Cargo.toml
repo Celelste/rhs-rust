@@ -9,7 +9,8 @@ bin= [
     {name = "control1", path = "problems/2 - control flow/control-1.rs" },
     {name = "control2", path = "problems/2 - control flow/control-2.rs" },
     {name = "control3", path = "problems/2 - control flow/control-3.rs" },
-    {name = "control4", path = "problems/3 - functions/functions-5.rs" },
+    {name = "control4", path = "problems/2 - control flow/control-4.rs" },
+    {name = "function5", path = "problems/3 - functions/functions-5.rs" },
 ]
 
 [package]
