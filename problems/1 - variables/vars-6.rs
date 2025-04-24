@@ -9,6 +9,7 @@ fn main() {
 
     // fix error in num_array so total = 15
 
+    num_array[???] = 3;
 
 
     // change nothing below

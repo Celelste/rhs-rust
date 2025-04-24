@@ -1,19 +1,41 @@
-// print out numbers 1-10 by ONLY changing unknowns to succeed
+/*
+If-else statement quiz
 
-fn main() {
-    let mut x: i32 = 0;
+complete the test_val function to succeed:
+1 - test_val outputs true if x is even
+2 - test_val outputs false if x is odd, or is either 24 or 42
 
-    ??? x != 10 { // while x != 10
+test_val outputs true if x is even
+test_val outputs false if x is odd, or is either 24 or 42
 
-        let y: i32 = x;
+x % 2 == 0 (x is even)
+x % 2 != 0 (x is odd)
+*/
 
-        ???; // increment x by 1
+fn test_val(x: i32) -> bool { // ignore for now, we will cover how functions work later
 
-        // change nothing below
-        assert_ne!(y, x); // make sure that x and y are different
-        println!("{}", x);
+    ??? { // if 24 or 42, return false
+        return false
+    } ??? { // if even, return true
+        return true
+    } ??? { // else, return false
+        return false
     }
+}
 
-    assert_eq!(x, 10); // make sure that x == 10
+fn main() { // change nothing in fn main {}
+    // 'true' statements
+    assert_eq!(test_val(2), true);
+    assert_eq!(test_val(36), true);
+    assert_eq!(test_val(44), true);
+    assert_eq!(test_val(1000), true);
+    // 'false' statements
+    assert_eq!(test_val(1), false);
+    assert_eq!(test_val(5), false);
+    assert_eq!(test_val(23), false);
+    assert_eq!(test_val(24), false);
+    assert_eq!(test_val(42), false);
+    assert_eq!(test_val(1001), false);
+
     println!("Success!");
 }

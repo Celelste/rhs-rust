@@ -1,37 +1,30 @@
-/*
-complete the test_val function to succeed:
-1 - test_val outputs true if x is even
-2 - test_val outputs false if x is odd, or is either 24 or 42
-*/
+// Practical If-else Statements
 
-fn main() { // change nothing in fn main {}
-    // 'true' statements
-    assert_eq!(test_val(2), true);
-    assert_eq!(test_val(36), true);
-    assert_eq!(test_val(44), true);
-    assert_eq!(test_val(1000), true);
-    // 'false' statements
-    assert_eq!(test_val(1), false);
-    assert_eq!(test_val(5), false);
-    assert_eq!(test_val(23), false);
-    assert_eq!(test_val(24), false);
-    assert_eq!(test_val(42), false);
-    assert_eq!(test_val(1001), false);
+// fill in the ?'s to output the correct weather statement for the given temperature
 
-    println!("Success!");
-}
+fn main() {
+    let temperature = 75; // change this value to test different outputs
+    let temp_state: &str; // declare a variable to hold the weather state
 
-// test_val outputs true if x is even
-// test_val outputs false if x is odd, or is either 24 or 42
-
-fn test_val(x: i32) -> bool { // ignore for now, we will cover how functions work later
-
-    ??? x == 24 || x == 42 { // if x == 24 or x == 42 return false
-        false
-    } else ??? x % 2 == 0 { // else if x % 2 == 0 return true
-        true
-    } ??? { // else return false
-        false
+    ??? temperature < 30 { // lower than 30 is very cold
+        println!("It's very cold outside");
+        temp_state = "very cold";
+    } else if temperature < 50   { // lower than 50 is cold
+        println!("It's a bit chilly");
+        temp_state = "cold";
+    } ??? temperature < 80 { // lower than 80 is pleasant
+        println!("The weather is pleasant");
+        temp_state = "pleasant";
+    } ??? { // higher than 80 is hot
+        println!("It's hot outside");
+        temp_state = "hot";
     }
 
+    // change nothing below
+    assert_eq!(weather(temperature), temp_state);
+    println!("success!");
 }
+
+// Ignore all below
+pub mod mods {pub mod weather;}
+use mods::weather::weather;

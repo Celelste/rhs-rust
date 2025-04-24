@@ -1,4 +1,6 @@
-// make the program succeed twice by ONLY filling in the unknowns
+// Basic If Statements
+
+// fill in the ?'s to succeed
 
 fn main() {
     let x: i32 = 5;
@@ -10,6 +12,6 @@ fn main() {
     if ??? {
         println!("Fail");
     } else {
-        println!("Success");
+        println!("Success!");
     }
 }

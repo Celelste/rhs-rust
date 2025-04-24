@@ -8,17 +8,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="250cf8f8-4e3f-4b37-8f0d-cce2cab33f31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/problems/2 - control flow/control-4.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/2 - control flow/control-5.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/2 - control flow/control-6.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/2 - control flow/control-7.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/2 - control flow/control-8.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/2 - control flow/mods/fibonacci.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/2 - control flow/mods/weather.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/3 - functions/functions-1.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/3 - functions/functions-2.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/3 - functions/functions-3.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/4 - borrowing &amp; ownership/examples.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problems/4 - borrowing &amp; ownership/ownership-1.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/1 - variables/vars-1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/1 - variables/vars-1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/1 - variables/vars-2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/1 - variables/vars-2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problems/1 - variables/vars-3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/1 - variables/vars-3.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/1 - variables/vars-6.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/1 - variables/vars-6.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/2 - control flow/control-1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/2 - control flow/control-1.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/2 - control flow/control-2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/2 - control flow/control-2.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/2 - control flow/control-3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/2 - control flow/control-3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/2 - control flow/control-4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/problems/2 - control flow/control-4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/3 - functions/functions-5.rs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/problems/4 - borrowing &amp; ownership/stack_vs_heap.md" beforeDir="false" afterPath="$PROJECT_DIR$/problems/4 - borrowing &amp; ownership/stack_vs_heap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,12 +77,18 @@
     "Cargo.Run control2.executor": "Run",
     "Cargo.Run control3.executor": "Run",
     "Cargo.Run control4.executor": "Run",
+    "Cargo.Run control5.executor": "Run",
+    "Cargo.Run control6.executor": "Run",
+    "Cargo.Run controlq2.executor": "Run",
+    "Cargo.Run function1.executor": "Run",
+    "Cargo.Run ownershipex.executor": "Run",
     "Cargo.Run rhs-rust.executor": "Run",
     "Cargo.Run vars2.executor": "Run",
     "Cargo.Run vars3.executor": "Run",
     "Cargo.Run vars4.executor": "Run",
     "Cargo.Run vars5.executor": "Run",
     "Cargo.Run vars6.executor": "Run",
+    "Cargo.Test examples::tests::tests::borrow_value.executor": "Run",
     "Cargo.Test rhs-rust.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
@@ -88,21 +104,26 @@
     "org.rust.disableDetachedFileInspection/Users/sarmendarizsull8582/Documents/GitHub/rhs-rust/Problems/1 - vars/vars-1.rs": "true",
     "org.rust.disableDetachedFileInspection/Users/sarmendarizsull8582/Documents/GitHub/rhs-rust/problems/1-variables/vars-2.rs": "true",
     "org.rust.disableDetachedFileInspection/Users/sarmendarizsull8582/Documents/GitHub/rhs-rust/problems/2 - control flow/control-4.rs": "true",
+    "org.rust.disableDetachedFileInspection/Users/sarmendarizsull8582/Documents/GitHub/rhs-rust/problems/2 - control flow/control-quiz-1.rs": "true",
+    "org.rust.disableDetachedFileInspection/Users/sarmendarizsull8582/Documents/GitHub/rhs-rust/problems/2 - control flow/mods/fibonacci.rs": "true",
+    "org.rust.disableDetachedFileInspection/Users/sarmendarizsull8582/Documents/GitHub/rhs-rust/problems/2 - control flow/mods/mods.rs": "true",
+    "org.rust.disableDetachedFileInspection/Users/sarmendarizsull8582/Documents/GitHub/rhs-rust/problems/2 - control flow/mods/weather.rs": "true",
     "org.rust.disableDetachedFileInspection/Users/sarmendarizsull8582/Documents/GitHub/rhs-rust/problems/2-control_flow/control-2.rs": "true",
+    "org.rust.disableDetachedFileInspection/Users/sarmendarizsull8582/Documents/GitHub/rhs-rust/problems/3 - functions/functions-3.rs": "true",
     "org.rust.first.attach.projects": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/problems/4 - functions" />
-      <recent name="$PROJECT_DIR$/problems" />
-      <recent name="$PROJECT_DIR$/Problems/1 - vars" />
-      <recent name="$PROJECT_DIR$/Problems" />
+      <recent name="$PROJECT_DIR$/problems/2 - control flow" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/problems/2 - control flow/mods" />
+      <recent name="$PROJECT_DIR$/problems/mods" />
+      <recent name="$PROJECT_DIR$/problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.Run control4">
+  <component name="RunManager" selected="Cargo.Run ownershipex">
     <configuration name="Run control2" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package rhs-rust --bin control2" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -120,8 +141,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run control3" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package rhs-rust --bin control3" />
+    <configuration name="Run controlq2" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package rhs-rust --bin controlq2" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -137,8 +158,26 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run control4" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package rhs-rust --bin control4" />
+    <configuration name="Run function1" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package rhs-rust --bin function1" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run ownershipex" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="buildProfileId" value="dev" />
+      <option name="command" value="run --package rhs-rust --bin ownershipex" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -172,25 +211,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run vars3" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package rhs-rust --bin vars3" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run vars6" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package rhs-rust --bin vars6" />
+    <configuration name="Test examples::tests::tests::borrow_value" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="buildProfileId" value="test" />
+      <option name="command" value="test --package rhs-rust --bin ownership1 examples::tests::tests::borrow_value -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -226,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Run control4" />
-        <item itemvalue="Cargo.Run control3" />
+        <item itemvalue="Cargo.Run ownershipex" />
+        <item itemvalue="Cargo.Test examples::tests::tests::borrow_value" />
+        <item itemvalue="Cargo.Run function1" />
         <item itemvalue="Cargo.Run control2" />
-        <item itemvalue="Cargo.Run vars3" />
-        <item itemvalue="Cargo.Run vars6" />
+        <item itemvalue="Cargo.Run controlq2" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +277,15 @@
       <workItem from="1740678575684" duration="597000" />
       <workItem from="1740691717080" duration="55000" />
       <workItem from="1741111475424" duration="598000" />
-      <workItem from="1741712950650" duration="2853000" />
+      <workItem from="1741712950650" duration="3446000" />
+      <workItem from="1741885305902" duration="1879000" />
+      <workItem from="1742231355620" duration="5451000" />
+      <workItem from="1742403592811" duration="3795000" />
+      <workItem from="1743440471525" duration="907000" />
+      <workItem from="1744995771209" duration="874000" />
+      <workItem from="1744996649408" duration="2736000" />
+      <workItem from="1745341382608" duration="4371000" />
+      <workItem from="1745514551814" duration="2077000" />
     </task>
     <servers />
   </component>
